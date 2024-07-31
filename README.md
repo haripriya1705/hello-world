@@ -5,26 +5,26 @@ I am a passionate techie. I like to code.
 
 ## Table of Contents
 
--[Project Description](#project-description)
--[Technology Stack](#technology-stack)
--[Setup and Installation](#Setup-and-installation)
--[Usage](#usage)
--[Project Structure](#project-structure)
--[API Endpoints](#api-endpoints)
+- [Project Description](#project-description)
+- [Technology Stack](#technology-stack)
+- [Setup and Installation](#Setup-and-installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [API Endpoints](#api-endpoints)
 
-##Project Description
+## Project Description
 
 This project is built using the Model-View-Controller architecture. The application is designed to 
 
-##Technology Stack
+## Technology Stack
 
--**Backend**: Node.js, Express
--**Database**: PostgreSQL (pg library)
--**Environment Variables**: Dotenv
--**Development Tools**: Nodemon
--**Cross-Origin Resource Sharing (CORS)**: CORS library
+- **Backend**: Node.js, Express
+- **Database**: PostgreSQL (pg library)
+- **Environment Variables**: Dotenv
+- **Development Tools**: Nodemon
+- **Cross-Origin Resource Sharing (CORS)**: CORS library
 
-##Setup and Installation
+## Setup and Installation
 
 1. Clone the repository:
 	```bash
