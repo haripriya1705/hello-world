@@ -57,6 +57,7 @@ This project is built using the Model-View-Controller architecture. The applicat
 	```bash
 	npm run dev
 
+
 ## API Endpoints
 
 Here are the main API endpoints provided by the application:
@@ -107,6 +108,7 @@ Here are the main API endpoints provided by the application:
 - **Response**:
   - `204 No Content`: Item successfully deleted.
   - `404 Not Found`: Item not found.
+
 
 ## Project Structure
 
