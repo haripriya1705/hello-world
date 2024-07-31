@@ -109,5 +109,15 @@ Here are the main API endpoints provided by the application:
   - `404 Not Found`: Item not found.
 
 ## Project Structure
+/project-root
+│
+├── /controllers       # Controllers for handling requests
+├── /models            # Database models and schemas
+├── /routes            # Application routes
+├── /middlewares       # Custom middleware
+├── app.js             # Main application file
+├── package.json       # Project metadata and dependencies
+├── .env	       # Example environment variables file
+└── README.md          # Project documentation
 
 
