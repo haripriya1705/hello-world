@@ -12,11 +12,11 @@ I am a passionate techie. I like to code.
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
 
-## Project Description
+##Project Description
 
 This project is built using the Model-View-Controller architecture. The application is designed to 
 
-## Technology Stack
+##Technology Stack
 
 - **Backend**: Node.js, Express
 - **Database**: PostgreSQL (pg library)
@@ -24,35 +24,36 @@ This project is built using the Model-View-Controller architecture. The applicat
 - **Development Tools**: Nodemon
 - **Cross-Origin Resource Sharing (CORS)**: CORS library
 
-## Setup and Installation
+##Setup and Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
 	```bash
 	git clone https://github.com/your-username/your-repo-name.git
- 
-2. Navigate to the project directory:
+
+2. **Navigate to the project directory:**
 
 	```bash
 	cd your-repo-name
- 
-3. Install dependencies:
+
+3. **Install dependencies:**
 
 	```bash
 	npm install
- 
-4. Set up environment variables:
+
+4. **Set up environment variables:**
 
 	```bash
 	DB_URL=your-database-uri
 	PORT=your-port
- 
-5. Initialize the database:
+
+5. **Initialize the database:**
 
 	```bash
 	npm run setup-db
- 
-6. Start the development Server:
+
+6. **Start the development Server:**
 
 	```bash
 	npm run dev
+
