@@ -57,3 +57,57 @@ This project is built using the Model-View-Controller architecture. The applicat
 	```bash
 	npm run dev
 
+## API Endpoints
+
+Here are the main API endpoints provided by the application:
+
+### GET /api/v1/items
+
+- **Description**: Retrieve a list of all items.
+- **Response**:
+  - `200 OK`: Returns an array of items.
+
+### GET /api/v1/items/:id
+
+- **Description**: Retrieve a specific item by ID.
+- **Parameters**:
+  - `id` (integer): The ID of the item.
+- **Response**:
+  - `200 OK`: Returns the item object.
+  - `404 Not Found`: Item not found.
+
+### POST /api/v1/items
+
+- **Description**: Create a new item.
+- **Request Body**:
+  - `name` (string): The name of the item.
+  - `description` (string): A description of the item.
+- **Response**:
+  - `201 Created`: Returns the created item object.
+  - `400 Bad Request`: Invalid input data.
+
+### PUT /api/v1/items/:id
+
+- **Description**: Update an existing item by ID.
+- **Parameters**:
+  - `id` (integer): The ID of the item.
+- **Request Body**:
+  - `name` (string, optional): The new name of the item.
+  - `description` (string, optional): The new description of the item.
+- **Response**:
+  - `200 OK`: Returns the updated item object.
+  - `400 Bad Request`: Invalid input data.
+  - `404 Not Found`: Item not found.
+
+### DELETE /api/v1/items/:id
+
+- **Description**: Delete an item by ID.
+- **Parameters**:
+  - `id` (integer): The ID of the item.
+- **Response**:
+  - `204 No Content`: Item successfully deleted.
+  - `404 Not Found`: Item not found.
+
+## Project Structure
+
+
