@@ -116,11 +116,9 @@ Here are the main API endpoints provided by the application:
 - **/models**: Contains database models and schemas for defining data structure and interacting with the database.
 - **/routes**: Contains application route definitions and their corresponding handlers.
 - **/middlewares**: Custom middleware functions for tasks such as authentication and logging.
-- **/utils**: Utility functions and helpers used throughout the application.
-- **/logs**: Directory for storing log files.
 - **app.js**: The main application file that initializes the server and middleware.
 - **package.json**: Contains project metadata, scripts, and dependencies.
-- **.env.example**: Example file for environment variables configuration.
+- **.env**: Example file for environment variables configuration.
 - **README.md**: Documentation file for the project.
 
 
